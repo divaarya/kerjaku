@@ -1,0 +1,83 @@
+.cta {
+  background: var(--warna-utama);
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 5vw;
+}
+
+.cta h2 {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  margin-bottom: 24px;
+  opacity: 0.9;
+}
+
+.btn-cta {
+  background: var(--warna-aksen);
+  color: #1f2937;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 32px;
+  padding: 28px 5vw 16px;
+  background: #1f2937;
+  color: #d1d5db;
+  font-size: 14px;
+}
+
+.footer .logo {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.footer-merek p {
+  max-width: 320px;
+  line-height: 1.5;
+}
+
+.footer-kontak {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-kontak a,
+.footer-kontak span {
+  overflow-wrap: anywhere;
+}
+
+.footer-kontak h4 {
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.footer-kontak a:hover {
+  color: var(--warna-aksen);
+}
+
+.hak-cipta {
+  grid-column: 1 / -1;
+  border-top: 1px solid #374151;
+  padding-top: 12px;
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,103 @@
+.harga {
+  padding: 40px 5vw;
+  background: #f3f4f6;
+}
+
+.harga h2 {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.toggle {
+  display: flex;
+  width: max-content;
+  margin: 0 auto 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.toggle button {
+  border: none;
+  background: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.toggle .aktif {
+  background: var(--warna-utama);
+  color: #ffffff;
+}
+
+.harga-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.paket {
+  position: relative;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 2px solid transparent;
+}
+
+.paket.unggulan {
+  border-color: var(--warna-utama);
+}
+
+.label {
+  position: absolute;
+  top: -14px;
+  left: 28px;
+  background: var(--warna-aksen);
+  font-size: 13px;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 99px;
+}
+
+.angka {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.paket small {
+  color: #6b7280;
+}
+
+.paket ul {
+  list-style: none;
+  margin: 16px 0 24px;
+  display: grid;
+  gap: 10px;
+}
+
+.paket li::before {
+  content: "✓ ";
+  color: #16a34a;
+  font-weight: 800;
+}
+
+.btn-paket {
+  margin-top: auto;
+  background: var(--warna-utama);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}

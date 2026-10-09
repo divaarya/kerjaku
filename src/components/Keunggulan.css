@@ -1,0 +1,73 @@
+.keunggulan {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 56px;
+  padding: 40px 5vw;
+  background: #f3f4f6;
+}
+
+.keunggulan-kiri h2 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.keunggulan-kiri p {
+  color: #4b5563;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.keunggulan-kanan {
+  display: grid;
+  gap: 28px;
+}
+
+.keunggulan-item {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.keunggulan-ikon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--warna-utama);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keunggulan-item h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.keunggulan-item p {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.keunggulan-kiri img {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin-top: 32px;
+  border-radius: 16px;
+}
+
+@media (max-width: 800px) {
+  .keunggulan {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .keunggulan-kiri,
+  .keunggulan-kanan {
+    min-width: 0;
+  }
+}

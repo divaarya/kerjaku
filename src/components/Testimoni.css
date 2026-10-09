@@ -1,0 +1,46 @@
+.testimoni {
+  padding: 40px 5vw;
+  background: #f3f4f6;
+}
+
+.testimoni h2 {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.testimoni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.testimoni-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-left: 4px solid var(--warna-aksen);
+}
+
+.testimoni-card blockquote {
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.testimoni-card figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: auto;
+}
+
+.testimoni-card figcaption span {
+  color: #6b7280;
+  font-size: 14px;
+}

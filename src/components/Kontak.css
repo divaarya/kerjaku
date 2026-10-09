@@ -1,0 +1,63 @@
+.kontak {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 40px 5vw;
+  background: #ffffff;
+}
+
+.kontak-kiri h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.kontak-kiri p {
+  color: #4b5563;
+  line-height: 1.6;
+  max-width: 480px;
+  margin-bottom: 24px;
+}
+
+.btn-wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #22c55e;
+  color: #ffffff;
+  padding: 13px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-wa:hover {
+  background: #16a34a;
+}
+
+.kontak-daftar {
+  display: grid;
+  gap: 14px;
+  background: #f3f4f6;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.kontak-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #1f2937;
+  overflow-wrap: anywhere;
+}
+
+.kontak-item svg {
+  flex-shrink: 0;
+  color: var(--warna-utama);
+}
+
+@media (max-width: 800px) {
+  .kontak {
+    grid-template-columns: 1fr;
+  }
+}

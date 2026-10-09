@@ -1,0 +1,55 @@
+.fitur {
+  padding: 40px 5vw;
+  background: #ffffff;
+}
+
+.fitur h2 {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.fitur-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.fitur-card {
+  background: #f3f4f6;
+  border-radius: 16px;
+  padding: 28px 24px;
+  border-top: 4px solid var(--warna-utama);
+}
+
+.fitur-ikon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--warna-utama) 15%, white);
+  color: var(--warna-utama);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.fitur-sub {
+  text-align: center;
+  color: #4b5563;
+  font-size: 18px;
+  margin: -32px auto 48px;
+  max-width: 520px;
+}
+
+.fitur-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.fitur-card p {
+  color: #4b5563;
+  line-height: 1.6;
+  font-size: 15px;
+}
