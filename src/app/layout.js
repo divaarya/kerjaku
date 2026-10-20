@@ -17,7 +17,7 @@ export async function generateMetadata() {
   const site = await getSite();
 
   return {
-    metadataBase: new URL("https://kerjaku.vercel.app"),
+    metadataBase: new URL("https://kerjaku-nine.vercel.app"),
 
     title: site.seo.metaTitle || "Kerjaku",
     description:
